@@ -1,0 +1,35 @@
+# Ignore compiled object files and executables
+*.out
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Ignore Unix Executable Files (no extensions)
+a.out
+*/a.out
+*.elf
+*.bin
+!*/
+
+# Ignore build directories
+build/
+bin/
+dist/
+Debug/
+Release/
+*.dSYM/
+
+# Ignore CMake files
+CMakeFiles/
+CMakeCache.txt
+Makefile
+cmake_install.cmake
+
+# Ignore CLion settings
+.idea/
+
+# Ignore Mac system files
+.DS_Store
